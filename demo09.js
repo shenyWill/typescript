@@ -1,0 +1,11 @@
+"use strict";
+var d = new Date();
+console.log(d);
+var d2 = new Date(1000);
+console.log(d2);
+var d3 = new Date('2018/09/07 05:35:00');
+var d4 = new Date('2018-09-07 05:35:00');
+var d5 = new Date('2018-09-07T05:35:00');
+console.log(d3);
+console.log(d4);
+console.log(d5);
